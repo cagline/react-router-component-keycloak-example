@@ -1,0 +1,40 @@
+.App{
+  padding: 15px;
+  background: #eeeeee;
+}
+ul{
+  display: inline;
+  padding: 0;
+}
+li{
+  display: inline;
+  margin: 0 5px 0 0;
+  padding: 0 5px 0 0;
+}
+a {
+  display: inline;
+  color: #6666FF;
+}
+a:hover {
+  color: #3333FF;
+  font-weight: bolder;
+}
+
+button{
+  padding: 10px;
+  background: lightgray;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+.btn-link{
+  padding: 10px;
+  color: darkorange;
+  border-radius: 5px;
+  margin: 5px;
+  font-weight: 700;
+}
+.btn-link:hover{
+  color: darkorange;
+  font-weight: 900;
+}
