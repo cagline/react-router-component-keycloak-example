@@ -21,10 +21,19 @@ a:hover {
 }
 
 button{
+  background-color: #0088ce;
+  background-image: linear-gradient(to bottom,#39a5dc 0,#0088ce 100%);
+  background-repeat: repeat-x;
+  border-color: #00659c;
+  color: #fff;
   padding: 10px;
-  background: lightgray;
   border-radius: 5px;
   margin: 5px;
+
+}
+button:hover {   
+  background-color: #03699c;
+  background-image: linear-gradient(to bottom,#39a5dc 0,#03699c 100%);
 }
 
 .btn-link{
@@ -37,4 +46,19 @@ button{
 .btn-link:hover{
   color: darkorange;
   font-weight: 900;
+}
+
+.card{
+  border: 1px solid #cccccc;
+  background: whitesmoke;
+  padding: 15px;
+  margin: 15px;
+}
+
+.json{
+  padding: 15px;
+  margin: 15px;
+  border: 1px solid #cccccc;
+  background: whitesmoke;
+  font: .9rem;
 }
